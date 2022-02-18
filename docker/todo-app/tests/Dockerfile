@@ -1,6 +1,6 @@
 FROM mjgargani/puppeteer:trybe1.0 AS todotests
 
-WORKDIR /todo-app/front-end/
+WORKDIR /todo-list/tests
 
 COPY . .
 
